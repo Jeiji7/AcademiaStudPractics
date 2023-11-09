@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0360b2f0d9fc4b86acbd7ba1bb6cae64" Name="Diagram1">
+        <EntityTypeShape EntityType="AkademiaModel.Academics" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Animal_Popelyuk" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Control_Popelyuk" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Country" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Country_Popelyuk" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.disciplin" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Employee" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Exams" Width="1.5" PointX="7.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Facultet" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Flowers_Popelyuk" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Ingener" Width="1.5" PointX="7.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Kafedra" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Specialnost" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Student" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Studik" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.sysdiagrams" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Teachers" Width="1.5" PointX="7.5" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Zaivka1" Width="1.5" PointX="7.5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Zav_Kafedra" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AkademiaModel.Gimnazia" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="AkademiaModel.FK_disciplin_Kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Exams_disciplin" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Zaivka1_disciplin" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Employee_Kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Employee_Zav_Kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Exams_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Ingener_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Teachers_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Exams_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Kafedra_Facultet" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Specialnost_Kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="AkademiaModel.FK_Zaivka1_Specialnost1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
